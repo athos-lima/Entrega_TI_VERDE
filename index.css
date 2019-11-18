@@ -1,0 +1,251 @@
+body{
+	background-color: white;
+	shape-margin: 0;
+}
+header.masthead {
+  margin-bottom: 50px;
+  height: 200px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-lg-8 {
+  	position: relative;
+  	width: 100%;
+  	padding-right: 15px;
+  	padding-left: 15px;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+.col-md-10{
+    position: relative;
+  	width: 100%;
+  	padding-right: 15px;
+  	padding-left: 15px;
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+.mr-auto,
+	.mx-auto {
+  		margin-right: auto !important;
+		}
+.ml-auto,
+	.mx-auto {
+  		margin-left: auto !important;
+		}
+header.masthead .site-heading {
+  padding: 150px 0 150px;
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    padding: 0px;
+  }
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+
+header.masthead .page-heading h1,
+header.masthead .site-heading h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 80px;
+  }
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+ @media (min-width: 992px) {
+ .col-lg-4 {
+    flex: 0 0 33.33333%;
+    max-width: 24%;
+  }
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+.lead {
+  font-size: 0.75rem;
+  font-weight: 100;
+}
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #e9ecef;
+}
+.text_h1 {
+	color: green;
+	padding: 20px;
+}
+.ul {
+	color: black;
+}
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #e9ecef;
+}
+img {
+	width: 50%;
+}
+.button_align {
+	margin-top: 50px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+main div p{
+	color: black;
+	font-family: "Arial";
+	font-size: 80%;
+}
+main{
+	float: left;
+	background-color: #DCDCDC;
+	border-color: white;
+	border-top-style: ridge;
+	border-bottom-style: groove;
+	border-right-style: groove;
+	border-left-style: ridge;
+	height: 600px;
+	margin-top: -3.5%;
+	margin-left: -0.15%;
+	width: 70%;
+	}
+aside{
+	float: right;
+	background-color: white;
+	height: 600px;
+	margin-top: -3.5%;
+	width: 25%;
+
+}
+footer p{
+	font-size: 100%;
+	color: white;
+	position: absolute;
+	margin-left: 1.6%;
+}
+footer{
+	background-color: lightgreen;
+	height: 64.4px;
+	position: relative;
+	margin-top: 44%;
+	margin-right: -0.6%;
+	margin-left: -0.6%;
+}
+.align
+{
+  width: 100%; 
+  height: 100px;
+  display: flex;
+  float: left;
+  margin-top:35px;
+  margin-bottom:35px;
+}
+.alinhar{
+	float: left;
+	padding-left: 200px;
+	padding-bottom:20px;
+	margin-top: 10px;
+}
+.white{
+	color: white;
+}
+.alinhar_esquerda{
+	float: left;
+	margin-top:45px;
+}
+.alinhar_esquerda_baixo{
+	float: left;
+	padding-top: 10px;
+}
+.alinhar_direita{
+	float:right;
+	margin-top:45px;
+	padding-left:250px;
+}
+.alinhar_direita_baixo{
+	padding-bottom:20px;
+	margin-top:10px;
+}
+.center {
+	text-align: center;
+}
